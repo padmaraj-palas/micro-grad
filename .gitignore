@@ -1,0 +1,76 @@
+# Ignore build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+*/CMakeScripts/
+*/ReRunCMake.make
+
+# Ignore generated files
+Makefile
+cmake_install.cmake
+*.ninja
+*.vcxproj
+*.vcxproj.user
+*.sln
+
+# Ignore Xcode-specific files
+Xcode/build
+*.xcworkspace/
+*.xcuserdata/
+*xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Visual Studio-specific files
+ipch/
+*.vs
+*.opensdf
+*.sdf
+*.vcxproj.*
+*.pdb
+*.obj
+*.tlog
+*.idb
+*.log
+*.lastbuildstate
+
+# Ignore IDE-specific config files
+.idea/
+.vscode/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+*.temp
+*~
+
+# Ignore compiled binary and object files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Ignore dependency files
+*.d
+
+# Ignore coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore test output
+*.testlog
+*.log
+
+# Ignore user-specific files
+*.user
+*.run
